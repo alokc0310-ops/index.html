@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!----coding by @_.codedevotee-->
+    <title>Login page</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./style.css">
+ <style>
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+    }
+    body{
+        displty:flex;
+        justify-cintent:center;
+        align-items:center;
+        min-height:150vh;
+    
+        background-color:#000000
+    }
+    h5{
+        color:#fff;
+        font-size;2em;
+        font-family:sans-serif;
+    }
+   #First_button{
+        background-color:white;
+        color:#0e0101;
+        font: size 0.5em;
+        font-family:sans-serif;
+        padding:5px 10px;
+        border:none;
+        border-radius:5px;
+        cursor:pointer;
+        justify-content:center;
+    } 
+    .otp{
+        width:25px;
+        height:25px;
+        font: size 24px;
+        text-align:center;
+        border;1px solid #ccc;
+        border-radius:5px;
+        outline:none;
+        transition:all 0.3s ease;
+        box-shadow:0px 4px 6px rgba(0,0,0,0.05);
+    }
+    .otp:focus{
+        border-color:#f7fcfee9;
+
+    }
+    otp-container{
+        display:flex;
+        justify-content:space-around;
+        margin-top:20px;
+        padding:0 10px;
+        box-shadow:0px 0px 8px rgba(146, 13, 148, 0.932);
+    }
+    .send-btn:hover{
+        background-color:#d10d38;
+        box-shadow:- 6px 12px rgba(218, 14, 62, 0.909)
+        transform:translateY(-1px);
+       
+    }
+    send.btn:active{
+        transform:translate(1px);
+        box-shadow:0 2px 4px rgba(209, 13, 91, 0.954)
+    }
+   p{
+    color: rgb(244, 6, 6);
+   }
+  .box{
+    height: 150px;
+    width: 300px;
+    color: red;
+    background-color:skyblue;
+    justify-content: center;
+   }
+   div{
+    justify-content: center ;
+   }
+ </style>
+ </head>
+<body>
+    <div>
+    <h5>Create a new account</h5>
+ <div >
+    <form action="return false;" >
+   <label for="Username,email address or mobile number">Username, email address or mobile number:</label> <br>
+   <input type="text" id="Username, email address or mobile number" name="Username, email address or mobile number" placeholder="Username,email address or mobile number" required><br>
+   <label for="Password">Password:</label><br>
+    <input type="Password" class="Password" name="Password" placeholder="Password" required><br>
+    <div class="or">
+        <div class="line"></div>
+        <div class="or">or</div>
+        
+    </div>
+    <button id="First_Submit" class="Login">
+        Log in </a></button><br>
+    <button id="Second_Submit" class="Forgotten password?">Forgotten password?</button> <br>
+         <li class="Create a new account" herf="Create a new account">
+           <label for="Username" class="Username">Username:</label><br> 
+           <input type="text" id="Username" name="Username" placeholder="Username" required><br>
+            <label for="Email" class="Email">Email:</label><br>
+            <input type="Email" id="Email" name="Email" placeholder="Email" required><br>
+            <label for="Password" class="Password">Password:</label><br>
+            <input type="Password" id="Password" name="Password" placeholder="Password" required><br>
+            <label for="Password show">Password show</label>
+            <label for="Confirm Password" class="Confirm Password">Confirm Password:</label><br>
+            <input type="Password" id="Confirm Password" name="Confirm Password" placeholder="Confirm Password" required><br>
+            <label for="Date of birth" class="Date of birth">Date of Birth:</label><br>
+            <input type="date" id="Date of birth" name="Date of birth" required><br>
+
+            
+
+            <div class="box">
+                
+                <label for="Mobile Number" class="Mobile Number">Enter OTP</label><br>
+            <input type="text" id="Mobile Number" name="Mobile Number" placeholder="Mobile Number" required><br>
+             <button class="send btn" >Send OTP</button>
+ 
+                <h5>OTP Verification</h5>
+               
+                <P>Enter the 5 digit code sent ot your mobile</P>
+                <div class="otp-container">
+                    <input type="text" class="otp" maxlength="1">
+                    <input type="text" class="otp" maxlength="1">
+                    <input type="text" class="otp" maxlength="1">
+                    <input type="text" class="otp" maxlength="1">
+                    <input type="text" class="otp" maxlength="1">
+                    
+                </div>
+                          </div>
+
+            
+           
+
+            
+                     </li>   
+   </form>
+    </div>
+ </div>>
+ 
+ <svg viewBox="0 0 600 552">
+
+ </svg>
+ <!-- partial---->
+  <script src="https://cdn.jsdelivi.mim.js"></script>
+  <script src="https://cdn.jsdelivi.js"></script>
+  <script src="https://unpkg.co/gsp@3/dist/gsap.min.js"></script>
+  <script src="./script.js"></script>
+</div>
+
+</body>
+</html>
